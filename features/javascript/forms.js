@@ -1832,8 +1832,15 @@ WebDeveloper.Forms.populateFormFields = function(documents, emailAddress, passwo
           }
           else if(inputElementType && inputElementType.toLowerCase() == "tel" || inputElementName && (inputElementName.toLowerCase().indexOf("phone") >= 0 || inputElementName && inputElementName.toLowerCase().indexOf("tel") >= 0))
           {
-            inputElement.value = "1234567890";
-
+            const values = [
+              "+79006561381",
+              "+79007891381",
+              "+79009991381"
+            ];
+            
+            const randomIndex = Math.floor(Math.random() * values.length);
+            inputElement.value = values[randomIndex];
+            
             populatedFormFields++;
           }
           else if(inputElementType && inputElementType.toLowerCase() == "time")
@@ -1856,7 +1863,7 @@ WebDeveloper.Forms.populateFormFields = function(documents, emailAddress, passwo
           }
           else if(inputElementName && inputElementName.toLowerCase().indexOf("zip") >= 0)
           {
-            inputElement.value = "90210";
+            inputElement.value = "198206";
 
             populatedFormFields++;
           }
@@ -1868,7 +1875,7 @@ WebDeveloper.Forms.populateFormFields = function(documents, emailAddress, passwo
           }
           else
           {
-            inputElement.value = "Web Developer";
+            inputElement.value = "Тест";
 
             populatedFormFields++;
           }

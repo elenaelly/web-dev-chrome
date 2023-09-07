@@ -1,5 +1,7 @@
 {
-  "extensionDescription": { "message": "Добавляет кнопку панели инструментов веб -разработчика." },
+  "extensionDescription": {
+    "message": "Добавляет кнопку панели инструментов веб -разработчика."
+  },
   "extensionName": { "message": "Web Developer" },
 
   "about": { "message": "О расширении" },
@@ -8,12 +10,12 @@
   "add": { "message": "Добавить" },
   "advanced": { "message": "Дополнительно" },
   "alt": { "message": "Alt" },
-  "ancestors": { "message": "Ancestors" },
+  "ancestors": { "message": "Родители" },
   "anchor": { "message": "Якорь" },
   "anchors": { "message": "Якори" },
   "author": { "message": "Автор" },
   "cancel": { "message": "Отмена" },
-  "children": { "message": "Children" },
+  "children": { "message": "Дети" },
   "clear": { "message": "Очистить" },
   "color": { "message": "Цвет" },
   "colors": { "message": "Цвета" },
@@ -83,25 +85,27 @@
 
   "disableJavaScript": { "message": "Выкл. JavaScript" },
   "disableNotifications": { "message": "Выкл. уведомления" },
-  "disablePopups": { "message": "Выкл. всплываюющие окна" },
+  "disablePopups": { "message": "Выкл. всплывающие окна" },
 
   "disableAllStyles": { "message": "Выкл. все стили" },
-  "disableBrowserDefaultStyles": { "message": "Выкл. стили браузера по умолчанию" },
-  "disableEmbeddedStyles": { "message": "Выкл. embedded стили" },
-  "disableInlineStyles": { "message": "Выкл. inline стили" },
+  "disableBrowserDefaultStyles": {
+    "message": "Выкл. стили браузера по умолчанию"
+  },
+  "disableEmbeddedStyles": { "message": "Выкл. встроенные стили" },
+  "disableInlineStyles": { "message": "Выкл. строковые стили" },
   "disableLinkedStyleSheets": { "message": "Выкл. связанные CSS-файлы" },
   "disablePrintStyles": { "message": "Выкл. печатные стили" },
-  "displayHandheldStyles": { "message": "Вкл. стили для моб устройств" },
+  "displayHandheldStyles": { "message": "Вкл. стили для мобильных устройств" },
   "displayPrintStyles": { "message": "Вкл. печатные стили" },
   "editCSS": { "message": "Изменить CSS" },
-  "reloadLinkedStyleSheets": { "message": "Перезагрузить связанные CSS-файлы" },
+  "reloadLinkedStyleSheets": { "message": "Обновить связанные CSS-файлы" },
   "useBorderBoxModel": { "message": "Использовать Border Box" },
   "viewCSS": { "message": "Открыть CSS" },
 
   "addCookie": { "message": "Добавить Cookie" },
   "addCookieMenu": { "message": "Добавить Cookie..." },
   "deleteDomainCookies": { "message": "Удалить доменные Cookies" },
-  "deletePathCookies": { "message": "Удалить Cookies пути" },
+  "deletePathCookies": { "message": "Удалить Cookies страницы" },
   "deleteSessionCookies": { "message": "Удалить Cookies сеанса" },
   "disableCookies": { "message": "Выкл. Cookies" },
   "viewCookieInformation": { "message": "Открыть инфо о Cookie" },
@@ -112,7 +116,9 @@
   "convertFormGetsToPosts": { "message": "Изменить с GET на POST" },
   "convertFormPostsToGets": { "message": "Изменить с POST на GET" },
   "convertSelectElementsToTextInputs": { "message": "Изменить select на text" },
-  "convertTextInputsToTextareas": { "message": "Изменить text-input на Textareas" },
+  "convertTextInputsToTextareas": {
+    "message": "Изменить text-input на Textareas"
+  },
   "displayFormDetails": { "message": "Открыть детали формы" },
   "displayPasswords": { "message": "Отобразить пароли" },
   "enableAutoCompletion": { "message": "Вкл. автозаполнение" },
@@ -127,7 +133,7 @@
   "viewFormInformation": { "message": "Открыть инфо о форме" },
 
   "disableImages": { "message": "Выкл. изображения" },
-  "displayAltAttributes": { "message": "Вкл. Alt-атрибутыs" },
+  "displayAltAttributes": { "message": "Вкл. Alt-атрибуты" },
   "displayImageDimensions": { "message": "Вкл. размеры изображений" },
   "displayImagePaths": { "message": "Вкл. пути изображений" },
   "findBrokenImages": { "message": "Найти незагруженные изображения" },
@@ -137,39 +143,51 @@
   "makeImagesInvisible": { "message": "Скрыть изображения" },
   "outlineAllImages": { "message": "Выделить все изображения" },
   "outlineBackgroundImages": { "message": "Выделить фоновые изображения" },
-  "outlineImagesWithAdjustedDimensions": { "message": "Выделить изображения  отрегулированного размера" },
-  "outlineImagesWithEmptyAltAttributes": { "message": "Выделить изображения с пустыми Alt-атрибутами" },
-  "outlineImagesWithOversizedDimensions": { "message": "Выделить изображения  слишком большого размера" },
-  "outlineImagesWithoutAltAttributes": { "message": "Выделить изображения без Alt-атрибутов" },
-  "outlineImagesWithoutDimensions": { "message": "Выделить изображения без размера" },
-  "reloadImages": { "message": "Перезагрузить изображения" },
-  "replaceImagesWithAltAttributes": { "message": "Заменить изображения на Alt-атрибуты" },
+  "outlineImagesWithAdjustedDimensions": {
+    "message": "Выделить изображения  отрегулированного размера"
+  },
+  "outlineImagesWithEmptyAltAttributes": {
+    "message": "Выделить изображения с пустыми Alt-атрибутами"
+  },
+  "outlineImagesWithOversizedDimensions": {
+    "message": "Выделить изображения  слишком большого размера"
+  },
+  "outlineImagesWithoutAltAttributes": {
+    "message": "Выделить изображения без Alt-атрибутов"
+  },
+  "outlineImagesWithoutDimensions": {
+    "message": "Выделить изображения без размера"
+  },
+  "reloadImages": { "message": "Обновить изображения" },
+  "replaceImagesWithAltAttributes": {
+    "message": "Заменить изображения на Alt-атрибуты"
+  },
   "viewImageInformation": { "message": "Открыть инфо об изображениях" },
 
-  "displayAbbreviations": { "message": "Вкл. аббревиатуры" },
-  "displayAccessKeys": { "message": "Вкл. ключи доступа" },
-  "displayAnchors": { "message": "Вкл. якори" },
-  "displayARIARoles": { "message": "Вкл. ARIA" },
-  "displayDivDimensions": { "message": "Вкл. Div-размеры" },
-  "displayDivOrder": { "message": "Вкл. порядок Div" },
-  "displayElementInformation": { "message": "Вкл. инфо об элементе" },
-  "displayIdClassDetails": { "message": "Вкл. детали Id &amp; Class" },
-  "displayLinkDetails": { "message": "Вкл. детали ссылки" },
-  "displayObjectInformation": { "message": "Вкл. инфо об объекте" },
-  "displayStackLevels": { "message": "Вкл. уровни стека" },
-  "displayTabIndex": { "message": "Вкл. индекс вкладки" },
-  "displayTableDepth": { "message": "Вкл. глубину таблицы" },
-  "displayTableInformation": { "message": "Вкл. инфо о таблице" },
-  "displayTitleAttributes": { "message": "Вкл. Title-атрибуты" },
-  "displayTopographicInformation": { "message": "Вкл. топографическую инфо" },
-  "findDuplicateIds": { "message": "Найти дубликаты Id" },
-  "viewAnchorInformation": { "message": "Вкл. инфо о якорях" },
-  "viewColorInformation": { "message": "Вкл. инфо о цвете" },
-  "viewDocumentOutline": { "message": "Вкл. макет документа" },
-  "viewJavaScript": { "message": "Просмотреть JavaScript" },
-  "viewLinkInformation": { "message": "Просмотреть инфо о ссылке" },
-  "viewMetaTagInformation": { "message": "Вкл. инфо о мета-тэгах" },
-  "viewResponseHeaders": { "message": "Вкл. отзывчивые заголовки" },
+  "displayAbbreviations": { "message": "Элементы с подсказками" },
+  "displayAccessKeys": { "message": "Элементы с доступом клавишами" },
+  "displayAnchors": { "message": "Анкоры" },
+  "displayARIARoles": { "message": "ARIA" },
+  "displayDivDimensions": { "message": "Div-размеры" },
+  "displayDivOrder": { "message": "Порядок Div-элементов" },
+  "displayElementInformation": { "message": "Инфо об элементе" },
+  "displayIdClassDetails": { "message": "Id &amp; Class" },
+  "displayLinkDetails": { "message": "Детали ссылки" },
+  "displayObjectInformation": { "message": "Инфо об объекте" },
+  "displayStackLevels": { "message": "Уровни стека" },
+  "displayTabIndex": { "message": "TabIndex" },
+  "displayTableDepth": { "message": "Глубина таблицы" },
+  "displayTableInformation": { "message": "Инфо о таблице" },
+  "displayTitleAttributes": { "message": "Title-атрибуты" },
+  "displayTopographicInformation": { "message": "Карта страницы" },
+  "findDuplicateIds": { "message": "Дубликаты Id" },
+  "viewAnchorInformation": { "message": "Инфо об Анкорах" },
+  "viewColorInformation": { "message": "Инфо о цвете" },
+  "viewDocumentOutline": { "message": "Макет документа" },
+  "viewJavaScript": { "message": "Инфо о JavaScript" },
+  "viewLinkInformation": { "message": "Инфо о ссылке" },
+  "viewMetaTagInformation": { "message": "Инфо о мета-тэгах" },
+  "viewResponseHeaders": { "message": "Заголовки ответа" },
 
   "clearCache": { "message": "Очистить кеш" },
   "clearHistory": { "message": "Очистить историю" },
@@ -182,16 +200,22 @@
   "markAllLinksUnvisited": { "message": "Отменить посещение всех ссылок" },
   "markAllLinksVisited": { "message": "Посетить все ссылки" },
 
-  "outlineAbsolutePositionedElements": { "message": "Выделить элементы с абсолютной позицией" },
+  "outlineAbsolutePositionedElements": {
+    "message": "Выделить элементы с абсолютной позицией"
+  },
   "outlineBlockLevelElements": { "message": "Выделить блочные элементы" },
   "outlineDeprecatedElements": { "message": "Выделить устаревшие элементы" },
   "outlineExternalLinks": { "message": "Выделить внешние ссылки" },
-  "outlineFixedPositionedElements": { "message": "Выделить элементы с фикс. позицией" },
+  "outlineFixedPositionedElements": {
+    "message": "Выделить элементы с фикс. позицией"
+  },
   "outlineFloatedElements": { "message": "Выделить плавающие элементы" },
   "outlineFrames": { "message": "Выделить фреймы" },
   "outlineHeadings": { "message": "Выделить заголовки" },
   "outlineNonSecureElements": { "message": "Выделить небезопасные элементы" },
-  "outlineRelativePositionedElements": { "message": "Выделить элементы с относительной позицией" },
+  "outlineRelativePositionedElements": {
+    "message": "Выделить элементы с относительной позицией"
+  },
   "outlineTableCaptions": { "message": "Выделить подписи таблицы" },
   "outlineTableCells": { "message": "Выделить ячейки таблицы" },
   "outlineTables": { "message": "Выделить таблицы" },
@@ -205,12 +229,12 @@
 
   "editTools": { "message": "Изменить инструменты" },
   "validateLocalCSS": { "message": "Валидация локальных CSS" },
-  "validateLocalHTML": { "message": "Валидаия локальных HTML" },
+  "validateLocalHTML": { "message": "Валидация локальных HTML" },
   "viewSource": { "message": "Открыть исходный код" },
 
   "aboutMenu": { "message": "Инфо" },
   "help": { "message": "Помощь" },
-  "optionsMenu": { "message": "Опции" },
+  "optionsMenu": { "message": "Настройки" },
   "resetPage": { "message": "Сброс" },
 
   "addHorizontalLineGuide": { "message": "Добавить горизонт. направляющую" },
@@ -222,186 +246,334 @@
   "brokenImages": { "message": "незагруженные изображения" },
   "buildDate": { "message": "Дата билда" },
   "cannotEdit": { "message": "Нельзя изменить" },
-  "cannotEditHTTPOnlyCookies": { "message": "HttpOnly cookies нельзя изменить." },
-  "cannotEditLocalhostCookies": { "message": "Cookies на домене localhost нельзя изменить. <a href=\"http://chrispederick.com/work/web-developer/help/#cookies-localhost\" class=\"alert-link\" target=\"_blank\">Читать дальше</a>" },
+  "cannotEditHTTPOnlyCookies": {
+    "message": "HttpOnly cookies нельзя изменить."
+  },
+  "cannotEditLocalhostCookies": {
+    "message": "Cookies на домене localhost нельзя изменить. <a href=\"http://chrispederick.com/work/web-developer/help/#cookies-localhost\" class=\"alert-link\" target=\"_blank\">Читать дальше</a>"
+  },
   "checkAllCheckboxesSingleResult": { "message": "1 чекбокс отмечен" },
-  "checkAllCheckboxesMultipleResult": { "message": "$count$ чекбокса(-ов) отмечено", "placeholders": { "count": { "content": "$1" } } },
+  "checkAllCheckboxesMultipleResult": {
+    "message": "$count$ чекбокса(-ов) отмечено",
+    "placeholders": { "count": { "content": "$1" } }
+  },
   "clearCacheConfirmation": { "message": "Удалить кеш?" },
   "clearCacheResult": { "message": "Кеш удален" },
   "clearFormFieldsSingleResult": { "message": "Очищены поля 1 формы" },
-  "clearFormFieldsMultipleResult": { "message": "Очищены поля $count$ форм", "placeholders": { "count": { "content": "$1" } } },
+  "clearFormFieldsMultipleResult": {
+    "message": "Очищены поля $count$ форм",
+    "placeholders": { "count": { "content": "$1" } }
+  },
   "clearHistoryConfirmation": { "message": "Удалить историю?" },
   "clearHistoryResult": { "message": "История удалена" },
   "clearRadioButtonsSingleResult": { "message": "1 радио-кнопка удалена" },
-  "clearRadioButtonsMultipleResult": { "message": "$count$ радио-кнопки(-ок) удалено", "placeholders": { "count": { "content": "$1" } } },
+  "clearRadioButtonsMultipleResult": {
+    "message": "$count$ радио-кнопки(-ок) удалено",
+    "placeholders": { "count": { "content": "$1" } }
+  },
   "colorInformation": { "message": "Инфо о цвете" },
   "colorPicker": { "message": "Пипетка" },
   "collapseAll": { "message": "Свернуть все" },
-  "convertFormMethodsSingleResult": { "message": "В 1 форме метод изменен на $method$.", "placeholders": { "method": { "content": "$1" } } },
-  "convertFormMethodsMultipleResult": { "message": "В $count$ формах метод изменен на $method$s.", "placeholders": { "count": { "content": "$1" }, "method": { "content": "$2" } } },
-  "convertSelectElementsToTextInputsSingleResult": { "message": "1 select-элемент на текстовый ввод." },
-  "convertSelectElementsToTextInputsMultipleResult": { "message": "$count$ select-элемента (-ов) изменены на текстовый ввод", "placeholders": { "count": { "content": "$1" } } },
-  "convertTextInputsToTextareasSingleResult": { "message": "1 text input converted to a textarea." },
-  "convertTextInputsToTextareasMultipleResult": { "message": "$count$ text inputs converted to textareas.", "placeholders": { "count": { "content": "$1" } } },
-  "cookieAdded": { "message": "The cookie '$name$' was added.", "placeholders": { "name": { "content": "$1" } } },
-  "cookieDeleted": { "message": "The cookie %S was deleted." },
-  "cookieEdited": { "message": "The cookie %S was edited." },
-  "cookieInformation": { "message": "Cookie Information" },
-  "couldNotLoadCSS": { "message": "The CSS could not be loaded." },
-  "couldNotLoadJavaScript": { "message": "The JavaScript could not be loaded." },
-  "couldNotLoadResponseHeaders": { "message": "The response headers could not be loaded." },
-  "deleteConfirmation": { "message": "Delete..." },
-  "deleteCookie": { "message": "Delete Cookie" },
-  "deleteCookieConfirmation": { "message": "Are you sure you want to delete the cookie %S?" },
-  "deleteDomainCookiesMultipleConfirmation": { "message": "Are you sure you want to delete $count$ domain cookies?", "placeholders": { "count": { "content": "$1" } } },
-  "deleteDomainCookiesMultipleResult": { "message": "$count$ domain cookies deleted.", "placeholders": { "count": { "content": "$1" } } },
-  "deleteDomainCookiesNoneFound": { "message": "There are 0 domain cookies to delete." },
-  "deleteDomainCookiesSingleConfirmation": { "message": "Are you sure you want to delete 1 domain cookie?" },
-  "deleteDomainCookiesSingleResult": { "message": "1 domain cookie deleted." },
-  "deletePathCookiesMultipleConfirmation": { "message": "Are you sure you want to delete $count$ path cookies?", "placeholders": { "count": { "content": "$1" } } },
-  "deletePathCookiesMultipleResult": { "message": "$count$ path cookies deleted.", "placeholders": { "count": { "content": "$1" } } },
-  "deletePathCookiesNoneFound": { "message": "There are 0 path cookies to delete." },
-  "deletePathCookiesSingleConfirmation": { "message": "Are you sure you want to delete 1 path cookie?" },
-  "deletePathCookiesSingleResult": { "message": "1 path cookie deleted." },
-  "deleteSessionCookiesMultipleConfirmation": { "message": "Are you sure you want to delete $count$ session cookies?", "placeholders": { "count": { "content": "$1" } } },
-  "deleteSessionCookiesMultipleResult": { "message": "$count$ session cookies deleted.", "placeholders": { "count": { "content": "$1" } } },
-  "deleteSessionCookiesNoneFound": { "message": "There are 0 session cookies to delete." },
-  "deleteSessionCookiesSingleConfirmation": { "message": "Are you sure you want to delete 1 session cookie?" },
-  "deleteSessionCookiesSingleResult": { "message": "1 session cookie deleted." },
-  "descriptionCannotBeEmpty": { "message": "The description cannot be empty." },
-  "disableCookiesResult": { "message": "Cookies have been disabled." },
-  "disableImagesResult": { "message": "Images have been disabled." },
-  "disableJavaScriptResult": { "message": "JavaScript has been disabled." },
-  "disableNotificationsResult": { "message": "Notifications have been disabled." },
-  "disablePopupsResult": { "message": "Popups have been disabled." },
-  "displayHiddenElementsSingleResult": { "message": "1 hidden element displayed." },
-  "displayHiddenElementsMultipleResult": { "message": "$count$ hidden elements displayed.", "placeholders": { "count": { "content": "$1" } } },
-  "displayPasswordsSingleResult": { "message": "1 password displayed." },
-  "displayPasswordsMultipleResult": { "message": "$count$ passwords displayed.", "placeholders": { "count": { "content": "$1" } } },
-  "displayWindowSizeResult": { "message": "Window: $outerWidth$px x $outerHeight$px &nbsp;&nbsp;&nbsp; Viewport: $innerWidth$px x $innerHeight$px", "placeholders": { "outerWidth": { "content": "$1" }, "outerHeight": { "content": "$2" }, "innerWidth": { "content": "$3" }, "innerHeight": { "content": "$4" } } },
-  "documentOutline": { "message": "Document Outline" },
-  "duplicateId": { "message": "duplicate id" },
-  "duplicateIds": { "message": "Duplicate Ids" },
-  "editCookie": { "message": "Edit Cookie" },
-  "elementInformation": { "message": "Element Information" },
-  "embeddedCSSFrom": { "message": "Embedded CSS from" },
-  "embeddedJavaScriptFrom": { "message": "Embedded JavaScript from" },
-  "embeddedStyles": { "message": "Embedded Styles" },
-  "enableAutoCompletionSingleResult": { "message": "Enabled auto completion for 1 element." },
-  "enableAutoCompletionMultipleResult": { "message": "Enabled auto completion for $count$ elements.", "placeholders": { "count": { "content": "$1" } } },
-  "enableCookiesResult": { "message": "Cookies have been enabled." },
-  "enableFormFieldsSingleResult": { "message": "1 form field enabled." },
-  "enableFormFieldsMultipleResult": { "message": "$count$ form fields enabled.", "placeholders": { "count": { "content": "$1" } } },
-  "enableImagesResult": { "message": "Images have been enabled." },
-  "enableJavaScriptResult": { "message": "JavaScript has been enabled." },
-  "enableNotificationsResult": { "message": "Notifications have been enabled." },
-  "enablePopupsResult": { "message": "Popups have been enabled." },
-  "endPositionX": { "message": "End Position: X =" },
-  "expandAll": { "message": "Expand all" },
-  "expandSelectElementsSingleResult": { "message": "1 select element expanded." },
-  "expandSelectElementsMultipleResult": { "message": "$count$ select elements expanded.", "placeholders": { "count": { "content": "$1" } } },
-  "expiresCannotBeEmpty": { "message": "The expires date cannot be empty if this is not a session cookie." },
-  "expiresNotValid": { "message": "The expires date is not a valid date." },
-  "expiresPlaceholder": { "message": "Enter the expires date" },
-  "extensionGalleryError": { "message": "does not work on the Chrome Extension Gallery or Firefox Add-ons site. <a href=\"http://chrispederick.com/work/web-developer/help/#extension-gallery\" class=\"alert-link\" target=\"_blank\">More information</a>" },
-  "followOnTwitter": { "message": "Follow on Twitter" },
-  "heightCannotBeEmpty": { "message": "The height cannot be empty." },
-  "heightNotValid": { "message": "The height is not valid." },
-  "hostCannotBeEmpty": { "message": "The host cannot be empty." },
-  "hostCannotBeLocalhost": { "message": "cannot add cookies on a localhost domain. <a href=\"http://chrispederick.com/work/web-developer/help/#cookies-localhost\">More information</a>" },
-  "hostPlaceholder": { "message": "Enter the host" },
-  "hoverColor": { "message": "Hover Color:" },
+  "convertFormMethodsSingleResult": {
+    "message": "В 1 форме метод изменен на $method$.",
+    "placeholders": { "method": { "content": "$1" } }
+  },
+  "convertFormMethodsMultipleResult": {
+    "message": "В $count$ формах метод изменен на $method$s.",
+    "placeholders": {
+      "count": { "content": "$1" },
+      "method": { "content": "$2" }
+    }
+  },
+  "convertSelectElementsToTextInputsSingleResult": {
+    "message": "1 select-элемент на текстовый ввод."
+  },
+  "convertSelectElementsToTextInputsMultipleResult": {
+    "message": "$count$ select-элемента (-ов) изменены на текстовый ввод",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "convertTextInputsToTextareasSingleResult": {
+    "message": "1 текст. ввод изменен на textarea."
+  },
+  "convertTextInputsToTextareasMultipleResult": {
+    "message": "$count$ текст. ввода(-ов) изменены на textareas.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "cookieAdded": {
+    "message": "Сookie '$name$' добалена",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "cookieDeleted": { "message": "Сookie %S удалена" },
+  "cookieEdited": { "message": "Сookie %S изменена" },
+  "cookieInformation": { "message": "Инфо о Cookie" },
+  "couldNotLoadCSS": { "message": "CSS не могут быть загружены" },
+  "couldNotLoadJavaScript": { "message": "JavaScript не может быть загружен" },
+  "couldNotLoadResponseHeaders": {
+    "message": "Заголовки ответа не могут быть загружены"
+  },
+  "deleteConfirmation": { "message": "Удалить..." },
+  "deleteCookie": { "message": "Удалить Cookie" },
+  "deleteCookieConfirmation": { "message": "Удалить cookie %S?" },
+  "deleteDomainCookiesMultipleConfirmation": {
+    "message": "Удалить $count$ доменных cookies?",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "deleteDomainCookiesMultipleResult": {
+    "message": "$count$ доменных cookies удалены",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "deleteDomainCookiesNoneFound": { "message": "Доменные cookies отсутствуют" },
+  "deleteDomainCookiesSingleConfirmation": {
+    "message": "Удалить 1 доменную cookie?"
+  },
+  "deleteDomainCookiesSingleResult": { "message": "1 доменная cookie удалена" },
+  "deletePathCookiesMultipleConfirmation": {
+    "message": "Удалить $count$ cookies страницы?",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "deletePathCookiesMultipleResult": {
+    "message": "$count$ cookies страницы удалены",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "deletePathCookiesNoneFound": { "message": "Сookies страницы отсутствуют" },
+  "deletePathCookiesSingleConfirmation": {
+    "message": "Удалить 1 cookie страницы?"
+  },
+  "deletePathCookiesSingleResult": { "message": "1 cookie удалена" },
+  "deleteSessionCookiesMultipleConfirmation": {
+    "message": "Удалить $count$ cookies сеанса?",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "deleteSessionCookiesMultipleResult": {
+    "message": "$count$ cookies сеанса удалены",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "deleteSessionCookiesNoneFound": { "message": "Сookies сеанса отсутствуют" },
+  "deleteSessionCookiesSingleConfirmation": {
+    "message": "Удалить 1 cookie сеанса?"
+  },
+  "deleteSessionCookiesSingleResult": { "message": "1 cookie сеанса удалена" },
+  "descriptionCannotBeEmpty": { "message": "Заполните описание" },
+  "disableCookiesResult": { "message": "Cookies отключены" },
+  "disableImagesResult": { "message": "Изображения отключены" },
+  "disableJavaScriptResult": { "message": "JavaScript отключены" },
+  "disableNotificationsResult": { "message": "Уведомления отключены" },
+  "disablePopupsResult": { "message": "Всплывающие окна отключены" },
+  "displayHiddenElementsSingleResult": {
+    "message": "1 скрытый эмелент теперь отображается"
+  },
+  "displayHiddenElementsMultipleResult": {
+    "message": "$count$ скрытых элемента теперь отображаются",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "displayPasswordsSingleResult": { "message": "1 пароль теперь отображается" },
+  "displayPasswordsMultipleResult": {
+    "message": "$count$ пароля(-ей) теперь отображаются",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "displayWindowSizeResult": {
+    "message": "Окно: $outerWidth$px x $outerHeight$px &nbsp;&nbsp;&nbsp; Область просмотра: $innerWidth$px x $innerHeight$px",
+    "placeholders": {
+      "outerWidth": { "content": "$1" },
+      "outerHeight": { "content": "$2" },
+      "innerWidth": { "content": "$3" },
+      "innerHeight": { "content": "$4" }
+    }
+  },
+  "documentOutline": { "message": "Макет документа" },
+  "duplicateId": { "message": "Дублирующийся id" },
+  "duplicateIds": { "message": "Дублирующиеся Ids" },
+  "editCookie": { "message": "Изменить Cookie" },
+  "elementInformation": { "message": "Инфо об элементе" },
+  "embeddedCSSFrom": { "message": "Встроенные CSS из" },
+  "embeddedJavaScriptFrom": { "message": "Встроенный JavaScript из" },
+  "embeddedStyles": { "message": "Встроенные стили" },
+  "enableAutoCompletionSingleResult": {
+    "message": "Автозаполнение 1 элемента включено"
+  },
+  "enableAutoCompletionMultipleResult": {
+    "message": "Автозаполнение $count$ элементов включено",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "enableCookiesResult": { "message": "Cookies включены" },
+  "enableFormFieldsSingleResult": { "message": "1 поле включено" },
+  "enableFormFieldsMultipleResult": {
+    "message": "$count$ поля(-ей) включено.",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "enableImagesResult": { "message": "Изображения включены" },
+  "enableJavaScriptResult": { "message": "JavaScript включен" },
+  "enableNotificationsResult": { "message": "Уведомления включены" },
+  "enablePopupsResult": { "message": "Всплывающие окна включены" },
+  "endPositionX": { "message": "Конечное положение: X =" },
+  "expandAll": { "message": "Раскрыть все" },
+  "expandSelectElementsSingleResult": { "message": "1 select-элемент включен" },
+  "expandSelectElementsMultipleResult": {
+    "message": "$count$ select-элемента(-ов) включены",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "expiresCannotBeEmpty": {
+    "message": "Дата истечения срока действия cookie не может быть пустой, если это не cookie сеанса."
+  },
+  "expiresNotValid": { "message": "Проверьте дату" },
+  "expiresPlaceholder": { "message": "Введите дату истечения срока действия" },
+  "extensionGalleryError": {
+    "message": "не работает в магазине расширений Chrome или на сайте расширений Firefox. <a href=\"http://chrispederick.com/work/web-developer/help/#extension-gallery\" class=\"alert-link\" target=\"_blank\">Читать далее</a>"
+  },
+  "followOnTwitter": { "message": "Twitter" },
+  "heightCannotBeEmpty": { "message": "Введите высоту" },
+  "heightNotValid": { "message": "Проверьте высоту" },
+  "hostCannotBeEmpty": { "message": "Введите хост" },
+  "hostCannotBeLocalhost": {
+    "message": "нельзя добавить cookie на localhost. <a href=\"http://chrispederick.com/work/web-developer/help/#cookies-localhost\">Читать далее</a>"
+  },
+  "hostPlaceholder": { "message": "Введите хост" },
+  "hoverColor": { "message": "Цвет при наведении:" },
   "httpOnly": { "message": "HttpOnly" },
-  "internalBrowserPagesError": { "message": "does not work on internal browser pages." },
-  "lineGuides": { "message": "Line Guides" },
-  "linkInformation": { "message": "Link Information" },
-  "makeFormFieldsWritableSingleResult": { "message": "1 form field made writable." },
-  "makeFormFieldsWritableMultipleResult": { "message": "$count$ form fields made writable.", "placeholders": { "count": { "content": "$1" } } },
-  "makeFramesResizableSingleResult": { "message": "1 frame made resizable." },
-  "makeFramesResizableMultipleResult": { "message": "$count$ frames made resizable.", "placeholders": { "count": { "content": "$1" } } },
-  "makeImagesFullSizeSingleResult": { "message": "1 image made full size." },
-  "makeImagesFullSizeMultipleResult": { "message": "$count$ images made full size.", "placeholders": { "count": { "content": "$1" } } },
-  "markAllLinksUnvisitedResult": { "message": "All links have been marked unvisited." },
-  "markAllLinksVisitedResult": { "message": "All links have been marked visited." },
-  "maximumLength": { "message": "Maximum Length" },
-  "metaTag": { "message": "meta tag" },
-  "metaTags": { "message": "Meta Tags" },
-  "missingHeading": { "message": "(Missing heading)" },
-  "nameCannotBeEmpty": { "message": "The name cannot be empty." },
-  "namePlaceholder": { "message": "Enter the name" },
-  "nextPosition": { "message": "Next Position =" },
-  "noHeadingText": { "message": "(No heading text)" },
-  "pathCannotBeEmpty": { "message": "The path cannot be empty." },
-  "pathPlaceholder": { "message": "Enter the path" },
-  "populateFormFieldsSingleResult": { "message": "1 form field populated." },
-  "populateFormFieldsMultipleResult": { "message": "$count$ form fields populated.", "placeholders": { "count": { "content": "$1" } } },
-  "positionLabel": { "message": "Position =" },
-  "previousPosition": { "message": "Previous Position =" },
-  "reloadImagesResult": { "message": "All images have been reloaded." },
-  "reloadLayouts": { "message": "Reload Layouts" },
-  "reloadLinkedStyleSheetsResult": { "message": "All linked style sheets have been reloaded." },
-  "removeFormValidationMultipleResult": { "message": "Removed validation from $count$ form fields.", "placeholders": { "count": { "content": "$1" } } },
-  "removeFormValidationSingleResult": { "message": "Removed validation from 1 form field." },
-  "removeMaximumLengthsSingleResult": { "message": "Removed maximum length from 1 form field." },
-  "removeMaximumLengthsMultipleResult": { "message": "Removed maximum length from $count$ form fields.", "placeholders": { "count": { "content": "$1" } } },
-  "resetDisableFeatures": { "message": "Reset Disable Features" },
-  "resetDisableFeaturesResult": { "message": "All features disabled or enabled by Web Developer have been reset." },
-  "responseHeaders": { "message": "Response Headers" },
-  "responsiveLayouts": { "message": "Responsive Layouts" },
-  "secureCookie": { "message": "Secure cookie" },
-  "selectAnElementDisplayInformation": { "message": "Select an element to display the information about it" },
-  "selectedColor": { "message": "Selected Color:" },
-  "sessionCookie": { "message": "Session cookie" },
-  "startPositionX": { "message": "Start Position: X =" },
-  "syntaxHighlighting": { "message": "Syntax Highlighting" },
-  "uncheckAllCheckboxesSingleResult": { "message": "1 checkbox unchecked." },
-  "uncheckAllCheckboxesMultipleResult": { "message": "$count$ checkboxes unchecked.", "placeholders": { "count": { "content": "$1" } } },
-  "undoBeautifyJavaScript": { "message": "Undo beautify JavaScript" },
-  "urlCannotBeEmpty": { "message": "The URL cannot be empty." },
-  "valuePlaceholder": { "message": "Enter the value" },
-  "widthCannotBeEmpty": { "message": "The width cannot be empty." },
-  "widthNotValid": { "message": "The width is not valid." },
+  "internalBrowserPagesError": {
+    "message": "не работает на внутренних страницах браузера"
+  },
+  "lineGuides": { "message": "Направляющие" },
+  "linkInformation": { "message": "Инфо о ссылке" },
+  "makeFormFieldsWritableSingleResult": {
+    "message": "1 поле теперь редактируемые"
+  },
+  "makeFormFieldsWritableMultipleResult": {
+    "message": "$count$ поля(-ей) теперь редактируемые",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "makeFramesResizableSingleResult": {
+    "message": "1 фрейм теперь редактируемый"
+  },
+  "makeFramesResizableMultipleResult": {
+    "message": "$count$ фрейма(-ов) теперь редактируемые",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "makeImagesFullSizeSingleResult": {
+    "message": "1 изображение теперь полноразмерное"
+  },
+  "makeImagesFullSizeMultipleResult": {
+    "message": "$count$ изображения (-ий) теперь полноразмерные",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "markAllLinksUnvisitedResult": {
+    "message": "Отменили посещение всех ссылок"
+  },
+  "markAllLinksVisitedResult": {
+    "message": "Все ссылки выглядят как посещенные"
+  },
+  "maximumLength": { "message": "Макс. длина" },
+  "metaTag": { "message": "мета-тэг" },
+  "metaTags": { "message": "мета-тэги" },
+  "missingHeading": { "message": "(Нет заголовка)" },
+  "nameCannotBeEmpty": { "message": "Введите имя" },
+  "namePlaceholder": { "message": "Имя" },
+  "nextPosition": { "message": "Следующая позиция =" },
+  "noHeadingText": { "message": "(Нет текста заголовка)" },
+  "pathCannotBeEmpty": { "message": "Введите путь" },
+  "pathPlaceholder": { "message": "lala.com/lala/lala" },
+  "populateFormFieldsSingleResult": { "message": "1 поле заполнено" },
+  "populateFormFieldsMultipleResult": {
+    "message": "$count$ поля(-ей) заполнено",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "positionLabel": { "message": "Позиция =" },
+  "previousPosition": { "message": "Предыдущая позиция =" },
+  "reloadImagesResult": { "message": "Изображения обновлены" },
+  "reloadLayouts": { "message": "Обновить макеты" },
+  "reloadLinkedStyleSheetsResult": { "message": "Все CSS обновлены" },
+  "removeFormValidationMultipleResult": {
+    "message": "Удалена валидация для $count$ полей",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "removeFormValidationSingleResult": {
+    "message": "Удалена валидация для 1 поля"
+  },
+  "removeMaximumLengthsSingleResult": {
+    "message": "Удалена макс. длина для 1 поля"
+  },
+  "removeMaximumLengthsMultipleResult": {
+    "message": "Удалена макс. длина для  $count$ полей",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "resetDisableFeatures": { "message": "Сбросить отключение функций" },
+  "resetDisableFeaturesResult": {
+    "message": "Все отключеное и включенное сброшено"
+  },
+  "responseHeaders": { "message": "Заголовки ответа" },
+  "responsiveLayouts": { "message": "Отзывчивые макеты" },
+  "secureCookie": { "message": "Безопасный cookie" },
+  "selectAnElementDisplayInformation": {
+    "message": "Выберите элемент, чтобы увидеть инфо о нем"
+  },
+  "selectedColor": { "message": "Выбранный цвет:" },
+  "sessionCookie": { "message": "Сookie сеанса" },
+  "startPositionX": { "message": "Начальная позиция: X =" },
+  "syntaxHighlighting": { "message": "Подсветка синтаксиса" },
+  "uncheckAllCheckboxesSingleResult": {
+    "message": "Отметка с 1 чекбокса удалена"
+  },
+  "uncheckAllCheckboxesMultipleResult": {
+    "message": "Отметки с $count$ чекбоксов удалены",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "undoBeautifyJavaScript": { "message": "Отменить форматирование JavaScript" },
+  "urlCannotBeEmpty": { "message": "Введите URL" },
+  "valuePlaceholder": { "message": "Введите значение" },
+  "widthCannotBeEmpty": { "message": "Введите ширину" },
+  "widthNotValid": { "message": "Проверьте ширину" },
   "yLabel": { "message": "Y =" },
 
-  "addLabel": { "message": "Add..." },
-  "addResizeOption": { "message": "Add Resize Option" },
-  "addResponsiveLayout": { "message": "Add Responsive Layout" },
-  "addTool": { "message": "Add Tool" },
-  "deleteResizeOption": { "message": "Delete Resize Option" },
-  "deleteResizeOptionConfirmation": { "message": "Are you sure you want to delete the '$option$' resize option?", "placeholders": { "option": { "content": "$1" } } },
-  "deleteResponsiveLayout": { "message": "Delete Responsive Layout" },
-  "deleteResponsiveLayoutConfirmation": { "message": "Are you sure you want to delete the '$option$' responsive layout?", "placeholders": { "option": { "content": "$1" } } },
-  "deleteTool": { "message": "Delete Tool" },
-  "deleteToolConfirmation": { "message": "Are you sure you want to delete the '$option$' tool?", "placeholders": { "option": { "content": "$1" } } },
-  "descriptionPlaceholder": { "message": "Enter a description" },
-  "displayOverlayWith": { "message": "Display the overlay with" },
-  "dragDropReorder": { "message": "Drag and drop to re-order." },
-  "editResizeOption": { "message": "Edit Resize Option" },
-  "editResponsiveLayout": { "message": "Edit Responsive Layout" },
-  "editTool": { "message": "Edit Tool" },
-  "heightPlaceholder": { "message": "Enter the height in pixels" },
-  "iconsText": { "message": "Icons & text" },
-  "populateEmailAddress": { "message": "Email address to use for populating email form fields" },
-  "syntaxHighlightPerformance": { "message": "Note that turning on syntax highlighting can affect the performance of the browser." },
-  "syntaxHighlightTheme": { "message": "Syntax highlighting theme" },
-  "urlPlaceholder": { "message": "Enter a URL" },
-  "viewportDescription": { "message": "Resize the viewport" },
-  "widthPlaceholder": { "message": "Enter the width in pixels" },
+  "addLabel": { "message": "Добавить" },
+  "addResizeOption": { "message": "Добавить опцию изменения размера" },
+  "addResponsiveLayout": { "message": "Добавить отзывчивый макет" },
+  "addTool": { "message": "Добавить инструмент" },
+  "deleteResizeOption": { "message": "Удалить вариант изменения размера" },
+  "deleteResizeOptionConfirmation": {
+    "message": "Удалить '$option$'?",
+    "placeholders": { "option": { "content": "$1" } }
+  },
+  "deleteResponsiveLayout": { "message": "Удалить отзывчивый макет" },
+  "deleteResponsiveLayoutConfirmation": {
+    "message": "Удалить макет?",
+    "placeholders": { "option": { "content": "$1" } }
+  },
+  "deleteTool": { "message": "Удалить инструмент" },
+  "deleteToolConfirmation": {
+    "message": "Удалить инструмент?",
+    "placeholders": { "option": { "content": "$1" } }
+  },
+  "descriptionPlaceholder": { "message": "Введите описание" },
+  "displayOverlayWith": { "message": "Отображать наложение с" },
+  "dragDropReorder": { "message": "Измените порядок перетаскиванием" },
+  "editResizeOption": { "message": "Изменить вариант изменения размера" },
+  "editResponsiveLayout": { "message": "Изменить отзывчивый макет" },
+  "editTool": { "message": "Редактировать инструмент" },
+  "heightPlaceholder": { "message": "Введите высоту в пикселях" },
+  "iconsText": { "message": "Иконки и текст" },
+  "populateEmailAddress": { "message": "Эл. почта для заполнения полей email" },
+  "syntaxHighlightPerformance": {
+    "message": "Внимание: если включить подсветку синтаксиса, браузер может работать медленнее"
+  },
+  "syntaxHighlightTheme": { "message": "Тема" },
+  "urlPlaceholder": { "message": "Введите URL" },
+  "viewportDescription": { "message": "Изменить viewport" },
+  "widthPlaceholder": { "message": "Введите ширину в пикселях" },
 
   "resize_1_description": { "message": "1024x768" },
 
-  "responsive_layout_1_description": { "message": "Mobile portrait" },
-  "responsive_layout_2_description": { "message": "Mobile landscape" },
-  "responsive_layout_3_description": { "message": "Small tablet portrait" },
-  "responsive_layout_4_description": { "message": "Small tablet landscape" },
-  "responsive_layout_5_description": { "message": "Tablet portrait" },
-  "responsive_layout_6_description": { "message": "Tablet landscape" },
+  "responsive_layout_1_description": { "message": "Телефон ↕" },
+  "responsive_layout_2_description": { "message": "Телефон ⇿" },
+  "responsive_layout_3_description": { "message": "Маленький планшет ↕" },
+  "responsive_layout_4_description": { "message": "Маленький планшет ⇿" },
+  "responsive_layout_5_description": { "message": "Планшет ↕" },
+  "responsive_layout_6_description": { "message": "Планшет ⇿" },
 
-  "tool_1_description": { "message": "Validate CSS" },
-  "tool_2_description": { "message": "Validate Feed" },
-  "tool_3_description": { "message": "Validate HTML" },
-  "tool_4_description": { "message": "Validate Accessibility" },
-  "tool_5_description": { "message": "Validate Links" },
-  "tool_6_description": { "message": "Validate Structured Data" },
-  "tool_7_description": { "message": "View DNS records" }
+  "tool_1_description": { "message": "Валидация CSS" },
+  "tool_2_description": { "message": "Валидация фида рассылки" },
+  "tool_3_description": { "message": "Валидация HTML" },
+  "tool_4_description": { "message": "Валидация доступности (Accessibility)" },
+  "tool_5_description": { "message": "Валидация ссылок" },
+  "tool_6_description": { "message": "Валидация структурных данных" },
+  "tool_7_description": { "message": "Просмотр записей DNS" }
 }
